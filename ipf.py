@@ -3,8 +3,7 @@ def ipf(seed, targets, max_iter=1000, tol=1e-6):
     """
      Perform Iterative Proportional Fitting (IPF) on a seed matrix.
      
-     Parameters:
-     
+     Parameter: 
      - seed: inital joint matrix.
      - targets: list of tuples (target_array, axes),
         * the target array is also called constraits, it sum the overall axes, the axes do not include the target variable axes.
