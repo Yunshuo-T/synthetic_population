@@ -1,9 +1,8 @@
-import numpy as np
 def ipf(seed, targets, max_iter=1000, tol=1e-6):
     """
      Perform Iterative Proportional Fitting (IPF) on a seed matrix.
      
-     Parameters:
+     Parameter:
      
      - seed: inital joint matrix.
      - targets: list of tuples (target_array, axes),
@@ -14,6 +13,9 @@ def ipf(seed, targets, max_iter=1000, tol=1e-6):
      Returns:
      
       The final joint matrix after IPF adjustment
+
+     Dependencies:
+        Numpy
     """
     # Dependecies
     import numpy as np
