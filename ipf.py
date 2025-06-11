@@ -1,3 +1,4 @@
+import numpy as np
 def ipf(seed, targets, max_iter=1000, tol=1e-6):
     """
      Perform Iterative Proportional Fitting (IPF) on a seed matrix.
@@ -14,6 +15,10 @@ def ipf(seed, targets, max_iter=1000, tol=1e-6):
      
       The final joint matrix after IPF adjustment
     """
+    # Dependecies
+    import numpy as np
+
+
     # Create a copy of the seed matrix and convert it to float for updates.
     fitted = seed.copy().astype(float)
     
