@@ -1,1 +1,1 @@
-# synthetic_population
+# Synthetic_populations generation
